@@ -29,13 +29,17 @@
 
   .special-heading + p {
     font-size: 10px;
-    margin: -20px;
+    margin: -20px 0 0;
   }
 }
 /* End Components */
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -409,6 +413,8 @@ body {
 @media (max-width: 991px) {
   .about .about-content .image {
     margin: 0 auto 20px;
+    width: 212px;
+    height: 212px;
   }
 }
 
